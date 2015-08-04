@@ -1,12 +1,12 @@
 define(['jQuery',
         'lodash',
-        'backbone' ],function(jQuery,
+        'backbone'],function(jQuery,
                               lodash,
                               backbone){
   return{
-    '$'        : jQuery,
-    'lodash'   : lodash,
-    'backbone' : backbone
+    '$'          : jQuery,
+    'lodash'     : lodash,
+    'backbone'   : backbone
   }
 
 });

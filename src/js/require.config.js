@@ -10,6 +10,7 @@ require.config({
         'jQuery'             :  '../../bower_components/jquery/dist/jquery',
         'lodash'             :  '../../bower_components/lodash/lodash',
         'backbone'           :   '../../bower_components/backbone/backbone',
+        'niceScroll'         :   '../../bower_components/nicescroll/jquery.nicescroll',
 
         /**
          *apps components */
@@ -37,6 +38,9 @@ require.config({
             /**
              * dependences*/
             deps: [ 'lodash', 'jQuery']
+        },
+        'niceScroll' : {
+            deps: [ 'jQuery']
         }
     },
 
